@@ -1,0 +1,22 @@
+[FROM_TO]
+ALLOW_FROM_LIST = BUILD|DEV|TEST|INTE|ALIYUN_TEST|ALIYUN_INTE|ONLINE|ALIYUN_ONLINE
+ALLOW_TO_LIST   = XXXXX|NEXUS|DEV|TEST|INTE|ALIYUN_TEST|ALIYUN_INTE|ONLINE|ALIYUN_ONLINE|STATIC_ONLINE
+
+[TEST]
+CMDB_SVN_URL = http://svn.rd.chanjet.com/svn/release_repos/xx/master
+CMDB_SVN_USER = builduser2
+CMDB_SVN_PASSWD = Jsdsdf!
+CMDB_RUNDECK_URL = http://www.baidu.com
+CMDB_RUNDECK_USER = admnistor
+CMDB_RUNDECK_PASSWD = aaaaa
+CMDB_RUNDECK_PROJECT = INTE-apps
+
+
+[DEV]
+CMDB_SVN_URL = http://svn.baidu.com/svn/release_dev
+CMDB_SVN_USER = cicduser
+CMDB_SVN_PASSWD = password
+CMDB_RUNDECK_URL = http://www.baiiud.com
+CMDB_RUNDECK_USER = adminuser
+CMDB_RUNDECK_PASSWD = aaaaaaaaaaaaaa
+CMDB_RUNDECK_PROJECT = INTE-apps
